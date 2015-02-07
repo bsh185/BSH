@@ -1,7 +1,7 @@
 public class Person{
 	private String name;
 	private String address;
-
+	private String phoneNumber;
 	public Person(String name, String address){
 	 this.name=name;
 	 this.address=address;
@@ -18,5 +18,18 @@ public class Person{
 	public void setAddress(String address){
 		this.address=address;
 	}
+
+	public Person (String name, String address, String phoneNumber){
+		this.name=name;
+		this.address=address;
+		this.phoneNumber=phoneNumber;
+	}
+	public String getPhoneNumber(){
+		return phoneNumber;
+	}
+	public void setPhoneNumber(String phoneNumber){
+		this.phoneNumber=phoneNumber;
+	}
+
 
 }
