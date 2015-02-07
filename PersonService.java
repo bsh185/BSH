@@ -1,8 +1,12 @@
 public class PersoneService{
 
-	Persone personeObject;
+	Person personeObject;
 	public PersoneService(Persons personeObject){
 		this.personeObject=personeObject;
+	}
+
+	public Person getPerson(){
+		return personeObject;
 	}
 
 
