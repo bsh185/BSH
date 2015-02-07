@@ -4,7 +4,8 @@ public class PersoneService{
 	public PersoneService(Persons personeObject){
 		this.personeObject=personeObject;
 	}
-
-
+	public void toString(){
+		System.out.print();
+	}
 
 }
